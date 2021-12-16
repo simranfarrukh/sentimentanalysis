@@ -3,9 +3,10 @@
 # @author Simran
 # @version 1.0
 
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
+import pandas as pd  # analyse data
+import numpy as np  # for working with friends
+# machine learning library
+from sklearn.model_selection import train_test_split  
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
@@ -140,8 +141,3 @@ print('Printing True Positive and Negative rates')
 tpr_knn = round(tp/(tp + fn), 4)
 tnr_knn = round(tn/(tn + fp), 4)
 print(tpr_knn, tnr_knn)
-
-
-
-
-
