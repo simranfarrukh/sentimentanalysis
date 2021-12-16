@@ -4,7 +4,7 @@
 # @version 1.0
 
 import pandas as pd  # analyse data
-import numpy as np  # for working with friends
+import numpy as np  # for working with arrays
 # machine learning library
 from sklearn.model_selection import train_test_split  
 from sklearn.feature_extraction.text import CountVectorizer
