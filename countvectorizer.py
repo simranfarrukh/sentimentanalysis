@@ -13,7 +13,6 @@ from sklearn.metrics import confusion_matrix
 from sklearn import svm
 from sklearn.neighbors import KNeighborsClassifier
 
-
 # >>- importing dataset ->>
 print('>>- importing dataset ->>')
 df = pd.read_csv('Datafiniti_Hotel_Reviews.csv')
